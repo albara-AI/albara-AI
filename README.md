@@ -5,17 +5,14 @@
 ###
 
 <div align="center">
-  <a href="https://linkedin.com/in/[your-handle]" target="_blank">
+  <a href="https://www.linkedin.com/in/albara-aljaber/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin" />
   </a>
-  <a href="mailto:[your-email]">
+  <a href="mailto:albaraaljaberwork@gmail.com">
     <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail" />
   </a>
   <a href="https://[yourname].com" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Portfolio&logo=firefox&label=&color=1F3A5F&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="portfolio" />
-  </a>
-  <a href="https://huggingface.co/[your-handle]" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=HuggingFace&logo=huggingface&label=&color=FFD21E&logoColor=black&labelColor=&style=for-the-badge" height="25" alt="huggingface" />
   </a>
 </div>
 
