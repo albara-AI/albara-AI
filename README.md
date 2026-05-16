@@ -43,10 +43,10 @@
 
 <p align="left">
   🏛️ &nbsp;<a href="https://github.com/[your-username]/arabic-legal-classifier"><strong>Arabic Legal Classifier</strong></a> — AraBERT · 3,500 docs · 17 sectors · F1-Macro 0.616<br>
-  🖼️ &nbsp;<a href="https://github.com/[your-username]/image-classifier-alexnet"><strong>Deep Learning Image Classifier</strong></a> — AlexNet · TensorFlow · 1,000+ classes<br>
-  🏪 &nbsp;<a href="https://github.com/[your-username]/sales-inventory-system"><strong>Sales & Inventory System</strong></a> — FastAPI · MySQL · Full-Stack Web App<br>
-  🎬 &nbsp;<a href="https://github.com/[your-username]/imdb-top250-scraper"><strong>IMDb Scraper Pipeline</strong></a> — Selenium · Pandas · SQLite · 250 movies<br>
-  📊 &nbsp;<a href="https://github.com/[your-username]/ml-co2-loan-analysis"><strong>ML Analysis — CO2 & Loan Approval</strong></a> — Regression · Classification · 10-Fold CV
+  🖼️ &nbsp;<a href="https://github.com/albara-AI/image-classifier-alexnet"><strong>Deep Learning Image Classifier</strong></a> — AlexNet · TensorFlow · 1,000+ classes<br>
+  🏪 &nbsp;<a href="https://github.com/albara-AI/Sales-Inventory-System"><strong>Sales & Inventory System</strong></a> — FastAPI · MySQL · Full-Stack Web App<br>
+  🎬 &nbsp;<a href="https://github.com/albara-AI/imdb-top250-scraper"><strong>IMDb Scraper Pipeline</strong></a> — Selenium · Pandas · SQLite · 250 movies<br>
+  📊 &nbsp;<a href="https://github.com/albara-AI/ml-co2-loan-analysis"><strong>ML Analysis — CO2 & Loan Approval</strong></a> — Regression · Classification · 10-Fold CV
 </p>
 
 ###
