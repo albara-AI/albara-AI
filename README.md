@@ -50,17 +50,6 @@ Multi-class classification of Arabic legislative documents into 17 sectors, fine
 
 ---
 
-#### 🔍 [Mini-RAG — Retrieval-Augmented Generation Pipeline](https://github.com/albara-AI/mini-rag)
-
-End-to-end RAG service: document chunking, embedding, vector storage, and semantic retrieval behind a FastAPI layer.
-
-- Built to understand the retrieval stack from the ground up rather than wiring a framework.
-- `FastAPI · Embeddings · Vector Search · Docker`
-
-> 🚧 In active development.
-
----
-
 #### 🏗️ [FlyRank Widget Platform](https://github.com/albara-AI/flyrank-capstone-widget-platform) · *Internship capstone*
 
 Backend platform built during a Backend AI Engineering internship at FlyRank.
@@ -109,7 +98,7 @@ AlexNet implementation and training pipeline in TensorFlow across 1,000+ classes
 ### Currently
 
 - Shipping **AL-BAYAN** to Hugging Face as a reusable Arabic legal classification model.
-- Building **Mini-RAG** — chunking strategies, embedding models, and retrieval evaluation for Arabic text.
+- Starting [**Mini-RAG**](https://github.com/albara-AI/mini-rag) — building a retrieval pipeline from scratch (chunking, embeddings, vector search) instead of wiring a framework.
 - Certified: **Azure AI-901** · Machine Learning · Data Analysis · AIDEL.
 
 <br>
