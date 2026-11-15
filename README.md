@@ -18,7 +18,7 @@
 
 ###
 
-<h1 align="center">Hey, I'm Albaraa 👋</h1>
+<h1 align="center">Hey, I'm Albara 👋</h1>
 
 ###
 
