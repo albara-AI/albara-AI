@@ -1,3 +1,8 @@
+<div align="center">
+  <img height="150" src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" />
+</div>
+
+<br>
 <h1 align="center">Albara Al-Jaber</h1>
 
 <h3 align="center">Applied LLM Engineer · Arabic NLP · RAG Systems</h3>
