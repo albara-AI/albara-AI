@@ -1,15 +1,9 @@
-<div align="center">
-  <img height="150" src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" />
-</div>
+<h1 align="center">Albara Al-Jaber</h1>
 
-<br>
-
-<h1 align="center">Hey, I'm Albara 👋</h1>
-
-<h3 align="center">AI Engineer | LLMs & RAG | Machine Learning</h3>
+<h3 align="center">Applied LLM Engineer · Arabic NLP · RAG Systems</h3>
 
 <p align="center">
-  Building Intelligent Systems & Exploring the Future of AI.
+  Building production-oriented NLP systems for Arabic text.
 </p>
 
 <div align="center">
@@ -22,123 +16,99 @@
   <a href="https://albara-aljaber-profile.netlify.app/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Portfolio&logo=firefox&label=&color=1F3A5F&logoColor=white&style=for-the-badge" height="25" alt="portfolio" />
   </a>
+  <a href="https://huggingface.co/albara-AI" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Hugging%20Face&logo=huggingface&label=&color=FFD21E&logoColor=black&style=for-the-badge" height="25" alt="huggingface" />
+  </a>
 </div>
 
 <br>
 
-<h3 align="left">👨‍💻 About Me</h3>
+### About
 
-<p align="left">
-  I'm a Data Science & Artificial Intelligence student passionate about building intelligent AI applications.
-  <br><br>
-  🤖 Interested in Artificial Intelligence, Large Language Models (LLMs), and Generative AI.
-  <br><br>
-  🔭 Currently working on developing <strong>Retrieval-Augmented Generation (RAG) systems</strong>, exploring document processing, embeddings, vector databases, and semantic search.
-  <br><br>
-  🧠 Experienced in Machine Learning, Deep Learning, NLP, and backend development using Python and FastAPI.
-  <br><br>
-  🚀 Continuously developing my skills in LLM Engineering, RAG architectures, and production-ready AI systems.
-  <br><br>
-  📊 Passionate about transforming complex problems into practical, scalable solutions.
-</p>
+Data Science & AI graduate (Hashemite University, Jordan). I work on Arabic NLP — document classification, retrieval, and LLM applications — with a backend engineering background from a Backend AI Engineering internship at FlyRank (FastAPI, PostgreSQL, Docker).
+
+Most of my work sits in the gap between an Arabic model that works in a notebook and one that holds up as a service: domain-specific text, class imbalance, and messy real-world documents.
 
 <br>
 
-<h3 align="left">🎯 Current Focus</h3>
+### Featured Work
 
-<p align="left">
-  <img src="https://img.shields.io/badge/LLMs-Research%20%26%20Development-1F6FEB?style=flat-square" />
-  <img src="https://img.shields.io/badge/RAG-System%20Development-2496ED?style=flat-square" />
-  <img src="https://img.shields.io/badge/Embeddings-Learning-8A2BE2?style=flat-square" />
-  <img src="https://img.shields.io/badge/Vector%20Databases-Exploring-00A67E?style=flat-square" />
-</p>
+#### 🏛️ [AL-BAYAN — Arabic Legal Document Classifier](https://github.com/albara-AI/arabic-legal-classifier)
 
-- Building RAG pipelines.
-- Exploring vector databases and semantic retrieval.
-- Learning advanced LLM application architectures.
-- Improving backend engineering and AI system development.
+Multi-class classification of Arabic legislative documents into 17 sectors, fine-tuned on AraBERT.
+
+- **3,500 documents · 17 classes · F1-Macro 0.616** (baseline TF-IDF + Logistic Regression: `0.XX`)
+- Hard because legal Arabic shares heavy vocabulary overlap across sectors, and the class distribution is long-tailed — several sectors have under 100 samples.
+- `AraBERT · PyTorch · Hugging Face Transformers`
+
+> Model card: [huggingface.co/albara-AI/al-bayan](https://huggingface.co/albara-AI) *(upload in progress)*
+
+---
+
+#### 🔍 [Mini-RAG — Retrieval-Augmented Generation Pipeline](https://github.com/albara-AI/mini-rag)
+
+End-to-end RAG service: document chunking, embedding, vector storage, and semantic retrieval behind a FastAPI layer.
+
+- Built to understand the retrieval stack from the ground up rather than wiring a framework.
+- `FastAPI · Embeddings · Vector Search · Docker`
+
+> 🚧 In active development.
+
+---
+
+#### 🏗️ [FlyRank Widget Platform](https://github.com/albara-AI/flyrank-capstone-widget-platform) · *Internship capstone*
+
+Backend platform built during a Backend AI Engineering internship at FlyRank.
+
+- Transactional **Outbox Pattern** for reliable event delivery, plus background workers for async processing.
+- `FastAPI · PostgreSQL · Docker · Background Workers`
+
+---
+
+#### 🖼️ [Deep Learning Image Classifier](https://github.com/albara-AI/image-classifier-alexnet)
+
+AlexNet implementation and training pipeline in TensorFlow across 1,000+ classes.
+
+- `TensorFlow · CNNs · Transfer Learning`
 
 <br>
 
-<h3 align="left">🚀 Featured Projects</h3>
+### Stack
 
-<p align="left">
+**NLP & LLMs**
+`Hugging Face Transformers` · `AraBERT` · `PyTorch` · `TensorFlow` · `Embeddings` · `Vector Databases` · `RAG`
 
-🏛️ <a href="https://github.com/albara-AI/arabic-legal-classifier"><strong>Arabic Legal Classifier</strong></a> — AraBERT · 3,500 Documents · 17 Legislative Sectors · F1-Macro 0.616
-<br><br>
-
-🖼️ <a href="https://github.com/albara-AI/image-classifier-alexnet"><strong>Deep Learning Image Classifier</strong></a> — AlexNet · TensorFlow · 1,000+ Classes
-<br><br>
-
-🏗️ <a href="https://github.com/albara-AI/flyrank-capstone-widget-platform"><strong>FlyRank Capstone Widget Platform</strong></a> — FastAPI · PostgreSQL · Docker · Outbox Pattern · Background Workers
-<br><br>
-
-🎬 <a href="https://github.com/albara-AI/imdb-top250-scraper"><strong>IMDb Scraper Pipeline</strong></a> — Selenium · Pandas · SQLite · 250 Movies
-<br><br>
-
-📊 <a href="https://github.com/albara-AI/ml-co2-loan-analysis"><strong>ML Analysis — CO2 & Loan Approval</strong></a> — Regression · Classification · 10-Fold CV
-
-</p>
-
-<br>
-
-<h3 align="left">🛠️ Languages & Tools</h3>
-
-<h4>Programming & Backend</h4>
+**Backend & Data**
+`Python` · `FastAPI` · `PostgreSQL` · `MySQL` · `Docker` · `Pandas` · `NumPy` · `Git`
 
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="38" alt="python" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="40" alt="fastapi" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="38" alt="pytorch" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql" />
+  <img src="https://skillicons.dev/icons?i=tensorflow" height="38" alt="tensorflow" />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=postgresql" height="40" alt="postgresql" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="38" alt="fastapi" />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=docker" height="40" alt="docker" />
+  <img src="https://skillicons.dev/icons?i=postgresql" height="38" alt="postgresql" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git" />
-</div>
-
-<h4>AI & Machine Learning</h4>
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="40" alt="pytorch" />
+  <img src="https://skillicons.dev/icons?i=docker" height="38" alt="docker" />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=tensorflow" height="40" alt="tensorflow" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="38" alt="pandas" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="40" alt="numpy" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="40" alt="pandas" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=opencv" height="40" alt="opencv" />
-</div>
-
-<h4>Development Tools</h4>
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="38" alt="git" />
 </div>
 
 <br>
 
-<h3 align="left">📈 GitHub Stats</h3>
+### Currently
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=albara-AI&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="150" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=albara-AI&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="Top languages" />
-</div>
+- Shipping **AL-BAYAN** to Hugging Face as a reusable Arabic legal classification model.
+- Building **Mini-RAG** — chunking strategies, embedding models, and retrieval evaluation for Arabic text.
+- Certified: **Azure AI-901** · Machine Learning · Data Analysis · AIDEL.
 
 <br>
-
-<h3 align="center">💡 Building Today, Engineering Tomorrow.</h3>
 
 <p align="center">
-  Always Learning. Always Building. Always Improving.
+  <sub>Open to applied LLM / NLP engineering roles · Jordan or remote</sub>
 </p>
